@@ -1,0 +1,110 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Award-Winning Slider</title>
+
+        <!-- external libs -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+        />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+        <!-- local stylesheet -->
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <!-- text slider -->
+        <div class="text-slider-wrapper">
+            <div class="text-slider">
+                <div class="text-slide">
+                    <h1>A blessing for <br />every skin.</h1>
+                </div>
+                <div class="text-slide">
+                    <h1>The perfect mix of <br />old &amp; new.</h1>
+                </div>
+                <div class="text-slide">
+                    <h1>A journey over borders <br />&amp; generations.</h1>
+                </div>
+                <div class="text-slide">
+                    <h1>You are the <br />stylist.</h1>
+                </div>
+                <div class="text-slide">
+                    <h1>To be on the <br />forefront.</h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- navigation buttons -->
+        <div class="slider-control">
+            <div class="prev">
+                <button type="button">
+                    <ion-icon name="arrow-back"></ion-icon>
+                </button>
+            </div>
+            <div class="next">
+                <button type="button">
+                    <ion-icon name="arrow-forward"></ion-icon>
+                </button>
+            </div>
+        </div>
+
+        <!-- decorative blocks -->
+        <div class="blocks">
+            <div class="block-1"></div>
+            <div class="block-2"></div>
+            <div class="block-3"></div>
+        </div>
+        <div class="overlay"></div>
+
+        <!-- image slider -->
+        <div class="image-slider">
+            <div
+                class="image-slide"
+                style="
+                    background: url(https://images.unsplash.com/photo-1519011985187-444d62641929?auto=format&fit=crop&w=2452&q=80)
+                        center/cover no-repeat;
+                "
+            ></div>
+            <div
+                class="image-slide"
+                style="
+                    background: url(https://images.unsplash.com/photo-1509679708047-e0e562d21e44?auto=format&fit=crop&w=1200&q=80)
+                        center/cover no-repeat;
+                "
+            ></div>
+            <div
+                class="image-slide"
+                style="
+                    background: url(https://images.unsplash.com/photo-1508215302842-8a015a452a20?auto=format&fit=crop&w=1200&q=80)
+                        center/cover no-repeat;
+                "
+            ></div>
+            <div
+                class="image-slide"
+                style="
+                    background: url(https://images.unsplash.com/photo-1537510929030-2ffb7888f379?auto=format&fit=crop&w=1200&q=80)
+                        center/cover no-repeat;
+                "
+            ></div>
+            <div
+                class="image-slide"
+                style="
+                    background: url(https://images.unsplash.com/photo-1552793084-49132af00ff1?auto=format&fit=crop&w=1200&q=80)
+                        center/cover no-repeat;
+                "
+            ></div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
