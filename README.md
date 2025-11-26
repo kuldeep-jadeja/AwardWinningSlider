@@ -19,6 +19,8 @@ A stunning, modern image carousel with synchronized text animations and smooth t
 
 ## 🚀 Demo
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-blue?style=flat-square)](https://award-winning-slider.kuldeepjadeja.dev/)
+
 The slider features:
 
 -   5 beautiful high-quality images from Unsplash
